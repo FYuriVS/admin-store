@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
         centerTitle: true,
         leading: Icon(Icons.add),
         title: Text(
-          "Dashboards",
+          "Dashboard",
           style: TextStyle(
             color: Theme.of(context).colorScheme.onSurface,
             fontSize: 28,
