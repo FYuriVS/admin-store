@@ -84,8 +84,8 @@ class _LineChartGraphState extends State<LineChartGraph> {
                       show: true,
                       gradient: LinearGradient(
                         colors: [
-                          Theme.of(context).colorScheme.primaryFixed,
-                          Theme.of(context).colorScheme.onPrimaryFixedVariant,
+                          Theme.of(context).colorScheme.secondaryContainer,
+                          Theme.of(context).colorScheme.onSurface,
                         ],
                         stops: const [0.5, 1.0],
                         begin: Alignment.topCenter,

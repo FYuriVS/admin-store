@@ -9,8 +9,9 @@ class ProductsScreen extends StatelessWidget {
       appBar: AppBar(),
       body: Center(child: Text("Products_Screen")),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Theme.of(context).colorScheme.secondaryContainer,
         onPressed: () {},
-        child: Icon(Icons.add),
+        child: Icon(Icons.add, color: Theme.of(context).colorScheme.onSecondaryContainer,),
       ),
     );
   }

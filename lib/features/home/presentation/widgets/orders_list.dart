@@ -21,14 +21,14 @@ class OrdersList extends StatelessWidget {
             child: ListTile(
               leading: Container(
                 decoration: BoxDecoration(
-                  color: Theme.of(context).colorScheme.primaryContainer,
+                  color: Theme.of(context).colorScheme.secondaryContainer,
                   borderRadius: BorderRadius.circular(16),
                 ),
                 height: 50,
                 width: 50,
                 child: Icon(
                   Icons.shopping_cart,
-                  color: Theme.of(context).colorScheme.onPrimaryContainer,
+                  color: Theme.of(context).colorScheme.onSecondaryContainer,
                 ),
               ),
               title: Text("Pedido #${order.id} - ${order.customer}"),
